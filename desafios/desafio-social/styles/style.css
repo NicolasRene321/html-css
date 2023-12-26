@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: black url("../img/background-image.jpeg") no-repeat fixed;
+    background-size: cover;
+}
+
+section#social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+section#social-media a img {
+    width: 60px;
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#tablet {
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    height: 450px;
+    width: 420px;
+    background: black url("../img/tablet.png") no-repeat fixed;
+    background-size: cover;
+}
+
+section#tablet iframe {
+    position: absolute;
+    top: 12.5%;
+    left: 17.5%;
+    width: 250px;
+    height: 350px;
+}
