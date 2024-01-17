@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    background: url(../imagens/woman-landscape.jpg) center bottom no-repeat fixed;
+}
+
+h1 {
+    color: rgb(75, 28, 9);
+}

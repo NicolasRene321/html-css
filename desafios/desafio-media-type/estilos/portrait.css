@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(218, 146, 146) url(../imagens/woman-portrait.jpg) center bottom no-repeat fixed;
+}
